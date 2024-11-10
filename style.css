@@ -1,0 +1,58 @@
+html {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px; 
+}
+
+body {
+   background-color: #90ccf4;
+   color: rgb(38, 36, 36);
+}
+
+header {
+   text-align: center; 
+   padding: 20px;
+ }
+ 
+nav {
+   width: 100%;
+   background-color: #ececec;
+   padding: 10px;
+   left: 0; 
+   position: fixed; 
+   top: 0;
+   z-index: 1000; 
+}
+
+footer {
+   text-align: center;
+   color:gray;
+}
+
+.logo {
+   height: 40px; 
+   margin-right: 10px; 
+   vertical-align: middle;
+}
+.maincontent {
+   width: 80%;
+   display: flexbox;
+   padding-left: 40px;
+}
+.return {
+   text-align: center;
+}
+.background {
+   text-align: center;
+   background-image: url(img_bg.png);
+   background-repeat: no-repeat;
+
+}
+.download {
+   text-align: center;
+}
+
+.resources {
+   width: 80%;
+   display: flexbox;
+   padding-left: 40px;
+}

@@ -1,0 +1,90 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+ }
+
+body {
+    background-color: #90ccf4;
+    color: rgb(38, 36, 36);
+ }
+ 
+ header {
+    text-align: center; 
+    padding: 20px;
+  }
+
+nav {
+    width: 100%;
+    background-color: #ececec;
+    padding: 10px;
+    left: 0; 
+    position: fixed; 
+    top: 0;
+    z-index: 1000; 
+ }
+
+ .return {
+    text-align: center; 
+ }
+
+ .form {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+ }
+
+ .logo {
+    height: 40px; 
+    margin-right: 10px; 
+    vertical-align: middle;
+ }
+ 
+ .background {
+    text-align: center;
+    background-image: url(img_bgp.png);
+    background-repeat: no-repeat;
+}
+
+ input[type=text], select, textarea {
+    width: 20%; 
+    padding: 12px; 
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    width: 20%;
+    padding: 12px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=feedback], select, textarea {
+    width: 60%; 
+    padding: 12px; 
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #0465aa;
+    color: white;
+    padding: 12px 20px;
+    border: black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
